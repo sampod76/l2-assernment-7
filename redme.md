@@ -27,3 +27,6 @@
 #  -->  6. What are the LIMIT and OFFSET clauses used for?
 
      The limit option allows you to limit the number of rows returned from a query, while offset allows you to omit a specified number of rows before the beginning of the result set. Using both limit and offset skips both rows as well as limit the rows returned .
+#  -->  7. How can you perform data modification using UPDATE statements?
+
+        To use the UPDATE method, you first determine which table you need to update with UPDATE table_name . After that, you write what kind of change you want to make to the record with the SET statement. Finally, you use a WHERE clause to select which records to change
