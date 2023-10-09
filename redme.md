@@ -30,3 +30,6 @@
 #  -->  7. How can you perform data modification using UPDATE statements?
 
         To use the UPDATE method, you first determine which table you need to update with UPDATE table_name . After that, you write what kind of change you want to make to the record with the SET statement. Finally, you use a WHERE clause to select which records to change
+# --> 8. What is the significance of the JOIN operation, and how does it work in PostgreSQL?
+
+        PostgreSQL join is used to combine columns from one (self-join) or more tables based on the values of the common columns between related tables. The common columns are typically the primary key columns of the first table and foreign key columns of the second table.
