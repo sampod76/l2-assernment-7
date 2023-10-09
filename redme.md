@@ -24,3 +24,6 @@
 #  -->  5. Explain the purpose of the WHERE clause in a SELECT statement.
 
         The WHERE clause is used to filter out the records or to specify a condition while extracting the records from a single table or joining multiple tables. It follows the SELECT and FROM clause.
+#  -->  6. What are the LIMIT and OFFSET clauses used for?
+
+     The limit option allows you to limit the number of rows returned from a query, while offset allows you to omit a specified number of rows before the beginning of the result set. Using both limit and offset skips both rows as well as limit the rows returned .
