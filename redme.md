@@ -20,3 +20,7 @@
 1.VARCHAR datatype is used to store character strings of variable length
 2.In VARCHAR, If the length of the string is less than the set or fixed-length then it will store as it is without padded with extra memory spaces.
 3.The storage size of the VARCHAR datatype is equal to the actual length of the entered string in bytes.
+
+#  -->  5. Explain the purpose of the WHERE clause in a SELECT statement.
+
+        The WHERE clause is used to filter out the records or to specify a condition while extracting the records from a single table or joining multiple tables. It follows the SELECT and FROM clause.
